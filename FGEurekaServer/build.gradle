@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-netflix-eureka-server', version: '1.4.3.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '1.2.1.RELEASE', ext: 'pom'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.0.RELEASE'
+}
